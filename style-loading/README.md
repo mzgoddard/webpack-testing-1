@@ -12,9 +12,9 @@
    yarn add style-loader css-loader postcss-loader autoprefixer
    ```
 
-1. Add the below configuration to `webpack.config.js` after the babel-loader config. This instructs webpack to use the just installed loaders to parse and render css.
+1. Add the below configuration to `webpack.config.js` in the `rules` section after the babel-loader config. This instructs webpack to use the loaders you installed in the previous step to parse and render css.
 
-   The configuraiton includes enabled CSS Modules. This will transform classes into identifiers that help avoid human errors around reusing existing keys in a project or keys also used by parts of a site included from another project.
+   The configuration enables CSS Modules. This will transform classes into identifiers that help avoid human errors around reusing existing keys in a project or keys also used by parts of a site included from another project.
 
    ```js
    {
@@ -53,7 +53,7 @@
 
    ```js
    // __mocks__/styleMock.js
-   
+
    module.exports = {};
    ```
 
