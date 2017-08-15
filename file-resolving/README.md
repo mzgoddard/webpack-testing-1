@@ -1,5 +1,7 @@
 # Module Bundler + Testing: File Resolving
 
+1. Run `git clone https://github.com/mzgoddard/webpack-testing-1.git`
+1. Enter the `file-resolving` directory in the repository clone
 1. Run `yarn`
 2. Run `yarn run dev` and read the build error you get
 3. Fix the build error by instructing webpack where to find the `"clock"` package

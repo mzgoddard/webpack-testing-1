@@ -1,5 +1,9 @@
 # Module Bundler + Testing: Style Loading
 
+1. Run `git clone https://github.com/mzgoddard/webpack-testing-1.git`
+
+1. Enter the `style-loading` directory in the repository clone
+
 1. Run `yarn`
 
 1. Run `yarn run dev`
