@@ -1,0 +1,17 @@
+.zone {
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0.5rem 0.8rem;
+  cursor: pointer;
+  color: white;
+  background: #BF7777;
+}
+
+.zone:hover {
+  background: #FF5252;
+}
+
+.active, .active:hover {
+  background: #B23A3A;
+}

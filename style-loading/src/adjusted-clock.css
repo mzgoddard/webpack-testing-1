@@ -1,0 +1,11 @@
+.clock {
+  font-size: 10rem;
+  font-family: "Inconsolata", sans-serif;
+  word-spacing: -5rem;
+  white-space: none;
+  color: #7F2929;
+  text-shadow: 0.2rem 0.2rem #B23A3A,
+    0.15rem 0.15rem #B23A3A,
+    0.1rem 0.1rem #B23A3A,
+    0.05rem 0.05rem #B23A3A;
+}
