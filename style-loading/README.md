@@ -75,7 +75,7 @@
 
    ```json
    "moduleNameMapper": {
-     "\\.(css|less)$": "identity-obj-proxy",
+     "\\.(css|less)$": "identity-obj-proxy"
    ```
 
 1. Run `yarn test`
